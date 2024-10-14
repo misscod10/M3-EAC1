@@ -1,1 +1,0 @@
-Actividad Docker Swarm Scripts
