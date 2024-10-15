@@ -34,7 +34,8 @@ services:
       WORDPRESS_DB_PASSWORD: password
       WORDPRESS_DB_NAME: wp_db
     deploy:
-      mode: global
+      mode: replicated
+      replicas: 4
     networks:
       - wp_net
     labels:
