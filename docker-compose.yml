@@ -42,7 +42,6 @@ services:
       - "traefik.http.routers.wordpress.rule=Host(`wp.docker.local`)"
       - "traefik.http.services.wordpress.loadbalancer.server.port=80"
       - "traefik.http.routers.wordpress.entrypoints=web"
-      - "traefik.http.routers.wordpress.middlewares=no-sticky-sessions@docker"
   
   db:
     image: mysql:latest
