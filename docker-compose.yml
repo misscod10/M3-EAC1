@@ -33,6 +33,8 @@ services:
       WORDPRESS_DB_USER: user
       WORDPRESS_DB_PASSWORD: password
       WORDPRESS_DB_NAME: wp_db
+    volumes:
+      - wp1_wordpress:/var/www/html
     deploy:
       mode: replicated
       replicas: 4
