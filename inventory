@@ -1,5 +1,7 @@
-[all]
+[master]
 master ansible_host=192.168.200.100
+
+[slaves]
 node1 ansible_host=192.168.200.101
 node2 ansible_host=192.168.200.102
 node3 ansible_host=192.168.200.103
