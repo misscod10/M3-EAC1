@@ -83,3 +83,4 @@ networks:
 
 volumes:
   db_data:
+  wp1_wordpress:
